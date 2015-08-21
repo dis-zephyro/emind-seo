@@ -89,7 +89,9 @@ html {
   line-height: 1.4;
 }
 .container {
+  z-index: 4;
   width: 1200px;
+  padding: 25px 0;
   margin-right: auto;
   margin-left: auto;
   position: relative;
@@ -98,22 +100,54 @@ html {
   width: 382px;
   height: 39px;
   margin: 0 auto 20px auto;
-  background: url("../img/divider.png") 0 0 no-repeat;
+  background: url("../img/divider.png") top center no-repeat;
 }
 .divider-dark {
   width: 382px;
   height: 39px;
   margin: 0 auto 20px auto;
-  background: url("../img/divider-dark.png") 0 0 no-repeat;
+  background: url("../img/divider-dark.png") top center no-repeat;
 }
 .text-box {
   font-size: 16px;
   line-height: 25px;
   text-align: justify;
 }
+.cloud {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.cloud-one {
+  background: url("../img/block01_cloud.png") 0 0 repeat-x;
+  background-size: cover;
+}
+.cloud-two {
+  background: url("../img/block02_cloud1.png") 0 0 repeat-x;
+  background-size: cover;
+}
+.cloud-three {
+  background: url("../img/block02_cloud2.png") 0 0 repeat-x;
+  background-size: cover;
+}
+.cloud-four {
+  background: url("../img/block04_cloud1.png") 0 0 repeat-x;
+  background-size: cover;
+}
+.cloud-five {
+  background: url("../img/block04_cloud2.png") 0 0 repeat-x;
+  background-size: cover;
+}
+.cloud-six {
+  background: url("../img/block05_cloud1.png") 0 0 repeat-x;
+  background-size: cover;
+}
 /* ------- Block01 -------- */
 .block01 {
   height: 800px;
+  position: relative;
   background: url("../img/block01_bg.jpg") top center no-repeat;
   background-size: cover;
 }
@@ -498,6 +532,10 @@ html {
 .btn:active {
   top: 1px;
 }
+.help-block {
+  display: none;
+  visibility: hidden;
+}
 /* Typography
    ========================= */
 h1,
@@ -536,20 +574,20 @@ ul {
 }
 /* Animation */
 .advert-num:hover .border-dark {
-  -webkit-animation-name: spin;
+  -webkit-animation-name: spi1n;
   -webkit-animation-duration: 1600ms;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-  -moz-animation-name: spin;
+  -moz-animation-name: spin1;
   -moz-animation-duration: 1600ms;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
-  -ms-animation-name: spin;
+  -ms-animation-name: spin1;
   -ms-animation-duration: 1600ms;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
-  animation-name: spin;
-  animation-duration: ms;
+  animation-name: spin1;
+  animation-duration: 1600ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -571,7 +609,7 @@ ul {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-@-ms-keyframes spin {
+@-ms-keyframes spin1 {
   from {
     -ms-transform: rotate(0deg);
   }
@@ -579,7 +617,7 @@ ul {
     -ms-transform: rotate(360deg);
   }
 }
-@-moz-keyframes spin {
+@-moz-keyframes spin1 {
   from {
     -moz-transform: rotate(0deg);
   }
@@ -587,7 +625,7 @@ ul {
     -moz-transform: rotate(360deg);
   }
 }
-@-webkit-keyframes spin {
+@-webkit-keyframes spin1 {
   from {
     -webkit-transform: rotate(0deg);
   }
@@ -595,7 +633,7 @@ ul {
     -webkit-transform: rotate(360deg);
   }
 }
-@keyframes spin {
+@keyframes spi2 {
   from {
     transform: rotate(0deg);
   }
@@ -633,5 +671,146 @@ ul {
   }
   to {
     transform: rotate(315deg);
+  }
+}
+/* Облака */
+.active .cloud-one {
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: cloud1;
+  -moz-animation-duration: 50s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: cloud1;
+  -ms-animation-duration: 50s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: cloud1;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.active .cloud-two {
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: cloud1;
+  -moz-animation-duration: 50s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: cloud1;
+  -ms-animation-duration: 50s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: cloud1;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.active .cloud-three {
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: cloud1;
+  -moz-animation-duration: 30s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: cloud1;
+  -ms-animation-duration: 30s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: cloud1;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.active .cloud-four {
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: cloud1;
+  -moz-animation-duration: 40s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: cloud1;
+  -ms-animation-duration: 40s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: cloud1;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.active .cloud-five {
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: cloud1;
+  -moz-animation-duration: 60s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: cloud1;
+  -ms-animation-duration: 60s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: cloud1;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.active .cloud-six {
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: cloud1;
+  -moz-animation-duration: 60s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: cloud1;
+  -ms-animation-duration: 60s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: cloud1;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-ms-keyframes cloud1 {
+  from {
+    background-position: 500% 0;
+  }
+  to {
+    background-position: -500% 0;
+  }
+}
+@-moz-keyframes cloud1 {
+  from {
+    background-position: 500% 0;
+  }
+  to {
+    background-position: -500% 0;
+  }
+}
+@-webkit-keyframes cloud1 {
+  from {
+    background-position: 500% 0;
+  }
+  to {
+    background-position: -500% 0;
+  }
+}
+@keyframes spin {
+  from {
+    background-position: 500% 0;
+  }
+  to {
+    background-position: -500% 0;
   }
 }

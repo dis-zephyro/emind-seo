@@ -1,0 +1,411 @@
+@media (max-width: 1220px) {
+  .hidden-xs {
+    display: none;
+    visibility: hidden;
+  }
+  .container {
+    padding: 0;
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .text-box {
+    font-size: 13px;
+    line-height: 17px;
+    text-align: left;
+  }
+  .divider,
+  .divider-dark {
+    width: 100%;
+  }
+  /* ------- Block01 -------- */
+  .block01 {
+    height: auto;
+    padding: 30px 0;
+    background-size: auto;
+  }
+  .block01 .top {
+    padding: 0 0 15px 0;
+  }
+  .block01 .top .logo {
+    float: left;
+    width: 85px;
+    overflow: hidden;
+  }
+  .block01 .top .phone {
+    float: right;
+    height: 30px;
+    padding-left: 0;
+    font-size: 20px;
+    background: none;
+    padding-bottom: 0;
+    text-align: right;
+    line-height: 30px;
+  }
+  .block01 .seo {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  .block01 p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  /* ------- Block02 -------- */
+  .block02 {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background: url("../img/block02_bg.jpg") bottom center no-repeat;
+    background-size: auto;
+  }
+  .block02 h2 {
+    color: #19191c;
+  }
+  .block02 .advert {
+    padding: 0 10px;
+    margin-bottom: 30px;
+  }
+  .block02 .advert li {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .block02 .text-title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .block02 .pc {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  .block02 .divider {
+    margin-bottom: 20px;
+  }
+  /* ------- Block03 -------- */
+  .block03 {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-position: center bottom;
+    background-size: auto;
+  }
+  .block03 h2 {
+    color: #474a56;
+  }
+  .block03 .problem {
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    position: relative;
+    background-position: 50% 90%;
+  }
+  .block03 .problem li {
+    width: 100%;
+    color: #424040;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 75px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .block03 .problem li.item1 {
+    top: 0;
+    left: 0;
+  }
+  .block03 .problem li.item2 {
+    top: 0;
+    left: 0;
+  }
+  .block03 .problem li.item3 {
+    top: 0;
+    left: 0;
+    margin-left: 0;
+  }
+  .block03 .problem li.item4 {
+    top: 0;
+    right: 0;
+  }
+  .block03 .problem li.item5 {
+    top: 0;
+    right: 0;
+  }
+  .block03 .pc {
+    width: 100%;
+    margin: 0 auto 30px auto;
+  }
+  .block03 .text-title {
+    color: #474a56;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  /* ------- Block04 -------- */
+  .block04 {
+    height: auto;
+    color: #424040;
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: cover;
+  }
+  .block04 h2 span {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .block04 p {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .block04 .text {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+  /* ------- Block05 -------- */
+  .block05 {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #393a3d;
+    background-size: auto;
+  }
+  .block05 .benefit {
+    padding: 30px 0;
+  }
+  .block05 .benefit .benefit-text {
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 140px;
+    padding-top: 15px;
+    padding-left: 0;
+    background: none;
+  }
+  .block05 .divider {
+    margin-top: 20px;
+  }
+  /* ------- Block06 -------- */
+  .block06 {
+    color: #4a4a4a;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff;
+    background-size: auto;
+  }
+  .block06 h2 {
+    color: #4a4a4a;
+  }
+  .block06 h2 span {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .block06 .text {
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .block06 .divider-dark {
+    margin-bottom: 20px;
+  }
+  .block06 .form-light {
+    margin-bottom: 20px;
+  }
+  .block06 .form-light .form-control {
+    color: #555;
+    border-color: #555;
+  }
+  .block06 .form-light .form-control.form-name {
+    background: #dddddd url("../img/icon-user.png") 20px 7px no-repeat;
+  }
+  .block06 .form-light .form-control.form-phone {
+    background: #dddddd url("../img/icon-phone.png") 20px 5px no-repeat;
+  }
+  .block06 .form-light .form-control::-moz-placeholder {
+    color: #555;
+    opacity: 1;
+  }
+  .block06 .form-light .form-control:-ms-input-placeholder {
+    color: #555;
+  }
+  .block06 .form-light .form-control::-webkit-input-placeholder {
+    color: #555;
+  }
+  .block06 .form-light .form-control:focus {
+    color: #555;
+  }
+  .block06 .form-light .form-control:focus.form-name {
+    background: #dddddd url("../img/icon-user.png") 20px 7px no-repeat;
+  }
+  .block06 .form-light .form-control:focus.form-phone {
+    background: #dddddd url("../img/icon-phone.png") 20px 5px no-repeat;
+  }
+  .block06 .form-light .form-control:focus::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  .block06 .form-light .form-control:focus:-ms-input-placeholder {
+    color: #555;
+  }
+  .block06 .form-light .form-control:focus::-webkit-input-placeholder {
+    color: #555;
+  }
+  .block06 .footer-text {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  /* Button & Form
+   ========================= */
+  .form-light {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: none;
+    position: relative;
+  }
+  .form-light .form-control {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .form-light .form-control.form-name {
+    background: rgba(255, 255, 255, 0.2) url("../img/icon-user.png") 20px -70px no-repeat;
+  }
+  .form-light .form-control.form-phone {
+    background: rgba(255, 255, 255, 0.2) url("../img/icon-phone.png") 20px -70px no-repeat;
+  }
+  .form-light .form-control::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  .form-light .form-control:-ms-input-placeholder {
+    color: #fff;
+  }
+  .form-light .form-control::-webkit-input-placeholder {
+    color: #fff;
+  }
+  .form-light .form-control:focus {
+    color: #fff;
+  }
+  .form-light .form-control:focus.form-name {
+    background: rgba(255, 255, 255, 0.2) url("../img/icon-user.png") 20px -70px no-repeat;
+  }
+  .form-light .form-control:focus.form-phone {
+    background: rgba(255, 255, 255, 0.2) url("../img/icon-phone.png") 20px -70px no-repeat;
+  }
+  .form-light .form-control:focus::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  .form-light .form-control:focus:-ms-input-placeholder {
+    color: #fff;
+  }
+  .form-light .form-control:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+  .form-dark {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: none;
+    position: relative;
+  }
+  .form-dark .form-control {
+    color: #555;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    border-color: #555;
+  }
+  .form-dark .form-control.form-name {
+    background: #dddddd url("../img/icon-user.png") 20px 7px no-repeat;
+  }
+  .form-dark .form-control.form-phone {
+    background: #dddddd url("../img/icon-phone.png") 20px 5px no-repeat;
+  }
+  .form-dark .form-control::-moz-placeholder {
+    color: #555;
+    opacity: 1;
+  }
+  .form-dark .form-control:-ms-input-placeholder {
+    color: #555;
+  }
+  .form-dark .form-control::-webkit-input-placeholder {
+    color: #555;
+  }
+  .form-dark .form-control:focus {
+    color: #555;
+    border-color: #555;
+  }
+  .form-dark .form-control:focus.form-name {
+    background: #dddddd url("../img/icon-user.png") 20px 7px no-repeat;
+  }
+  .form-dark .form-control:focus.form-phone {
+    background: #dddddd url("../img/icon-phone.png") 20px 5px no-repeat;
+  }
+  .form-dark .form-control:focus::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  .form-dark .form-control:focus:-ms-input-placeholder {
+    color: #555;
+  }
+  .form-dark .form-control:focus::-webkit-input-placeholder {
+    color: #555;
+  }
+  .form-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+  .form-text {
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .row .col {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .btn {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 20px;
+    background: #36283d;
+    display: block;
+  }
+  h1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+}
