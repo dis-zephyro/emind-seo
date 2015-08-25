@@ -144,30 +144,30 @@ html {
   background: url("../img/block05_cloud1.png") 0 0 repeat-x;
   background-size: cover;
 }
-/* ------- Block01 -------- */
-.block01 {
-  height: 800px;
-  position: relative;
-  background: url("../img/block01_bg.jpg") top center no-repeat;
-  background-size: cover;
-}
-.block01 .top {
+.top {
   padding: 0 0 15px 0;
 }
-.block01 .top .logo {
+.top .logo {
   float: left;
   width: 120px;
   overflow: hidden;
 }
-.block01 .top .phone {
+.top .phone {
   float: right;
   font-size: 30px;
   padding-left: 30px;
   padding-bottom: 10px;
   background: url("../img/icon-tel.png") 0 10px no-repeat;
 }
-.block01 .top .phone span {
+.top .phone span {
   font-weight: 300;
+}
+/* ------- Block01 -------- */
+.block01 {
+  height: 800px;
+  position: relative;
+  background: url("../img/block01_bg.jpg") top center no-repeat;
+  background-size: cover;
 }
 .block01 .seo {
   width: 385px;
@@ -188,6 +188,10 @@ html {
 }
 .block02 h2 {
   color: #19191c;
+}
+.block02 .top {
+  color: #1a1f2d;
+  margin-bottom: 20px;
 }
 .block02 .advert {
   padding: 0 45px;
@@ -315,6 +319,10 @@ html {
   background: url("../img/block04_bg.jpg") top center no-repeat;
   background-size: cover;
 }
+.block04 .top {
+  color: #1a1f2d;
+  margin-bottom: 20px;
+}
 .block04 h2 span {
   display: block;
   font-size: 24px;
@@ -332,6 +340,10 @@ html {
   height: 800px;
   background: url("../img/block05_bg.jpg") top center no-repeat;
   background-size: cover;
+}
+.block05 .top {
+  color: #1a1f2d;
+  margin-bottom: 20px;
 }
 .block05 .benefit {
   padding: 30px 0;
@@ -352,6 +364,10 @@ html {
   height: 800px;
   background: url("../img/block06_bg.jpg") top center no-repeat;
   background-size: cover;
+}
+.block06 .top {
+  color: #1a1f2d;
+  margin-bottom: 20px;
 }
 .block06 h2 {
   color: #413e3e;
