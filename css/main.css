@@ -157,10 +157,13 @@ html {
   font-size: 30px;
   padding-left: 30px;
   padding-bottom: 10px;
-  background: url("../img/icon-tel.png") 0 10px no-repeat;
+  background: url("../img/icon-tel-white.png") 0 10px no-repeat;
 }
 .top .phone span {
   font-weight: 300;
+}
+.top .phone.dark {
+  background: url("../img/icon-tel.png") 0 10px no-repeat;
 }
 /* ------- Block01 -------- */
 .block01 {
@@ -342,7 +345,7 @@ html {
   background-size: cover;
 }
 .block05 .top {
-  color: #1a1f2d;
+  color: #fff;
   margin-bottom: 20px;
 }
 .block05 .benefit {
